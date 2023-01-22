@@ -40,7 +40,8 @@
         <nav class="panel panel-default">
           <div class="panel-heading">フォルダ</div>
           <div class="panel-body">
-          <a href="{{ route('folders.create') }}" id="buttons" class="btn btn-default btn-block">
+            
+          <a href="{{ route('folders.create') }}" class="buttons">
             フォルダを追加する
           </a>
           </div>
@@ -58,7 +59,7 @@
   <div class="panel-heading">タスク</div>
   <div class="panel-body">
     <div class="text-right">
-      <a href="{{ route('tasks.create', ['id' => $current_folder_id]) }}" id="buttons" class="btn btn-default btn-block">
+      <a href="{{ route('tasks.create', ['id' => $current_folder_id]) }}"  class="buttons">
   タスクを追加する
 </a>
 
