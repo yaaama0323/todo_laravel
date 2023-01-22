@@ -83,3 +83,9 @@ a.my-navbar-item:hover {
 .form-control[readonly] {
   background-color: #fff;
 }
+
+#buttons{
+  margin-top: 5px;
+  border: solid 0.8px;
+  margin-bottom: 5px;
+}
